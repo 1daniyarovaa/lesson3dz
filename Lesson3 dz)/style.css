@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    text-align: center;    
+}
+.menuList ul {
+    display: flex;
+    padding-left: 20px;
+}
+.menuList ul li {
+    display: flex;
+    font-weight: 400px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 36px;
+    text-transform: uppercase;
+    list-style: none;
+}
+.logo2  {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 40px;
+    gap: 20px;
+}
+.logo2 ul {
+    display: flex;
+}
+.logo2 ul li {
+    font-weight: 400px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 36px;
+    text-transform: uppercase;
+    list-style: none;
+}
+.iconMenu{
+    display: flex;
+    gap: 20px;
+}
+.img{
+    position: relative;
+}
+.basket p{
+    position: absolute;
+    transform: translate(15px,-28px);
+}
+
+.main_page{
+    position: relative;
+    background-image: url(/Rectangle\ \(6\).png);
+    height: 100vh;
+}
+.main_page_inner{
+    position: absolute;
+    transform: translate(54px,400px);
+}
+.title{
+    font-weight: 700px;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.subtitle{
+    font-weight: 700px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-top: 20px;
+
+}
+.main_page_buttons{
+    display: flex;
+    gap: 24px;
+}
+.button{
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    width: 180px;
+    height: 48px;
+    color: black;
+    font-size: 14px;
+    margin-top: 24px;
+
+    
+}
+.button a{
+    color: black;
+    font-size: 14px;
+    font-weight: bold;  
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
